@@ -1,0 +1,1 @@
+match_id,commence_time_utc,home_team,away_team,closing_snapshot_utc,captured_at_utc,h2h_home_odds,h2h_draw_odds,h2h_away_odds,h2h_home_fair,h2h_draw_fair,h2h_away_fair,h2h_overround,ah_line_home,ah_home_odds,ah_away_odds,ah_home_fair,ah_away_fair,ah_overround,tot_line,tot_over_odds,tot_under_odds,tot_over_fair,tot_under_fair,tot_overround,status,note
