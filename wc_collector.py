@@ -308,6 +308,12 @@ def collect(api_key, sport_key, markets, data_dir, lookback_hours=0,
 
     state = load_state(state_path)
     captured = state.setdefault("captured", {})
+    # Persistent registry of every match we've ever seen in the live feed. The Odds
+    # API "current events" endpoint only lists upcoming/in-play matches, so a match
+    # drops off once it finishes. By remembering matches while they're upcoming we
+    # can still capture their closing line after kickoff, even if a run happens to
+    # fire after the match has left the live feed.
+    known = state.setdefault("known", {})
 
     # Load prior detail records so we append rather than overwrite.
     records = []
@@ -327,12 +333,24 @@ def collect(api_key, sport_key, markets, data_dir, lookback_hours=0,
     now = datetime.now(timezone.utc)
     market_str = ",".join(markets)
 
-    # Decide which matches to capture: kicked off, not yet captured, within lookback.
-    to_capture = []
+    # Merge every listed (upcoming/in-play) event into the persistent registry.
     for ev in events:
         eid = ev.get("id")
-        ct = parse_iso(ev.get("commence_time"))
-        if not eid or ct is None:
+        ct = ev.get("commence_time")
+        if eid and ct:
+            known[eid] = {
+                "id": eid,
+                "commence_time": ct,
+                "home_team": ev.get("home_team", ""),
+                "away_team": ev.get("away_team", ""),
+            }
+
+    # Decide which matches to capture, from the REGISTRY (not just the live feed):
+    # kicked off, not yet captured, within lookback.
+    to_capture = []
+    for eid, meta in known.items():
+        ct = parse_iso(meta.get("commence_time"))
+        if ct is None:
             continue
         if ct > now:
             continue                                   # not kicked off yet
@@ -342,9 +360,9 @@ def collect(api_key, sport_key, markets, data_dir, lookback_hours=0,
             age_h = (now - ct).total_seconds() / 3600.0
             if age_h > lookback_hours:
                 continue
-        to_capture.append(ev)
+        to_capture.append(meta)
 
-    print(f"{sport_key}: {len(events)} events listed, "
+    print(f"{sport_key}: {len(events)} live events, {len(known)} known, "
           f"{len(to_capture)} to capture "
           f"({'DRY RUN' if dry_run else 'live'}).", file=sys.stderr)
 

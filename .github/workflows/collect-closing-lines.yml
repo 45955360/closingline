@@ -6,7 +6,7 @@ on:
   schedule:
     # Every 3 hours (UTC). World Cup match days have clustered kickoffs; a few
     # hours' cadence guarantees we grab each match's close without hammering the API.
-    - cron: "0 */3 * * *"
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
     # Manual "Run workflow" button — handy for a first test or a one-off backfill.
     inputs:
