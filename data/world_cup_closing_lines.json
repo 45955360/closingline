@@ -1,0 +1,71 @@
+[
+  {
+    "match_id": "f58c55a9da96af562c31b7c5cca40187",
+    "home_team": "Mexico",
+    "away_team": "Ecuador",
+    "commence_time_utc": "2026-07-01T02:00:00Z",
+    "closing_snapshot_utc": "2026-07-01T01:55:37Z",
+    "captured_at_utc": "2026-07-01T02:03:01Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "Ecuador": 4.02,
+          "Mexico": 2.41,
+          "Draw": 2.8
+        },
+        "fair_shin": {
+          "Ecuador": 0.24229,
+          "Mexico": 0.40761,
+          "Draw": 0.35011
+        },
+        "fair_multiplicative": {
+          "Ecuador": 0.24368,
+          "Mexico": 0.40647,
+          "Draw": 0.34985
+        },
+        "overround": 1.02084
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "Ecuador": 1.94,
+          "Mexico": 1.99
+        },
+        "points": {
+          "Ecuador": 0.25,
+          "Mexico": -0.25
+        },
+        "fair_shin": {
+          "Ecuador": 0.50648,
+          "Mexico": 0.49352
+        },
+        "fair_multiplicative": {
+          "Ecuador": 0.50636,
+          "Mexico": 0.49364
+        },
+        "overround": 1.01798
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 1.98,
+          "Under": 1.93
+        },
+        "points": {
+          "Over": 1.75,
+          "Under": 1.75
+        },
+        "fair_shin": {
+          "Over": 0.49346,
+          "Under": 0.50654
+        },
+        "fair_multiplicative": {
+          "Over": 0.49361,
+          "Under": 0.50639
+        },
+        "overround": 1.02319
+      }
+    }
+  }
+]
