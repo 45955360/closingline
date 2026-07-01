@@ -1,0 +1,17 @@
+# secrets / credentials — never commit these
+.env
+gsa.json
+service_account.json
+*service-account*.json
+
+# python
+*.pyc
+__pycache__/
+*.tmp
+
+# the bet-CLV tool's private files
+enriched_bets.csv
+your_bets.csv
+
+# NOTE: data/ is intentionally NOT ignored — the collector's JSON/CSV closing-line
+# history is committed back to the repo by the GitHub Action so it persists.

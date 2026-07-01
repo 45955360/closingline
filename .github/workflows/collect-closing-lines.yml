@@ -1,0 +1,77 @@
+name: Collect World Cup closing lines
+
+# Runs on a schedule and captures Pinnacle closing lines for any World Cup match
+# that has kicked off since the last run. Idempotent: each match is captured once.
+on:
+  schedule:
+    # Every 3 hours (UTC). World Cup match days have clustered kickoffs; a few
+    # hours' cadence guarantees we grab each match's close without hammering the API.
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+    # Manual "Run workflow" button — handy for a first test or a one-off backfill.
+    inputs:
+      backfill:
+        description: "Capture every past un-captured match (ignore lookback)"
+        type: boolean
+        default: false
+
+# Allow the workflow to commit the updated data/ + state back to the repo.
+permissions:
+  contents: write
+
+concurrency:
+  # Never let two runs collide on the state file / sheet.
+  group: wc-closing-lines
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Always write the file. If the secret is unset it's simply empty and the
+      # Sheets writer is skipped (WC_SHEET_ID will also be unset).
+      - name: Write Google service-account key
+        env:
+          GSA: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: printf '%s' "$GSA" > "${RUNNER_TEMP}/gsa.json"
+
+      - name: Collect closing lines
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          WC_SHEET_ID: ${{ secrets.WC_SHEET_ID }}
+          WC_SHEET_TAB: ${{ vars.WC_SHEET_TAB || 'closing_lines' }}
+          # Path to the key file written above; the Sheets writer only runs if
+          # WC_SHEET_ID is set, so an empty file here is harmless otherwise.
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ runner.temp }}/gsa.json
+          WC_SPORT_KEY: ${{ vars.WC_SPORT_KEY || 'soccer_fifa_world_cup' }}
+          WC_MARKETS: ${{ vars.WC_MARKETS || 'h2h,spreads,totals' }}
+          BACKFILL: ${{ inputs.backfill }}
+        run: |
+          if [ "${BACKFILL}" = "true" ]; then
+            python wc_collector.py --backfill
+          else
+            python wc_collector.py
+          fi
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ || true
+          if git diff --cached --quiet; then
+            echo "No new closing-line data to commit."
+          else
+            git commit -m "chore: update World Cup closing lines [skip ci]"
+            git push
+          fi

@@ -1,0 +1,5 @@
+# World Cup closing-line collector — Google Sheets output.
+# The collector itself uses only the Python standard library; these are needed
+# ONLY when writing to a Google Sheet (WC_SHEET_ID set).
+gspread>=6.0.0
+google-auth>=2.28.0

@@ -1,0 +1,5 @@
+bet_id,sport_key,home_team,away_team,commence_time_iso,market,selection,point_taken,odds_taken
+001,soccer_epl,Arsenal,Chelsea,2026-05-10T15:00:00Z,h2h,Arsenal,,2.10
+002,basketball_nba,Boston Celtics,Miami Heat,2026-05-11T23:30:00Z,h2h,Boston Celtics,,1.55
+003,americanfootball_nfl,Kansas City Chiefs,Buffalo Bills,2026-09-14T17:00:00Z,spreads,Kansas City Chiefs,-2.5,1.91
+004,basketball_nba,Denver Nuggets,Phoenix Suns,2026-05-12T02:00:00Z,totals,Over,228.5,1.95
