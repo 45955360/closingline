@@ -1,5 +1,79 @@
 {
   "captured": {
     "f58c55a9da96af562c31b7c5cca40187": "2026-07-01T02:03:01Z"
+  },
+  "known": {
+    "3e161b2448ed76d6b0c0f5bda6fd5bf2": {
+      "away_team": "Cape Verde",
+      "commence_time": "2026-07-03T22:00:00Z",
+      "home_team": "Argentina",
+      "id": "3e161b2448ed76d6b0c0f5bda6fd5bf2"
+    },
+    "5ff7744314f224c18d1604ee9cc19263": {
+      "away_team": "DR Congo",
+      "commence_time": "2026-07-01T16:00:00Z",
+      "home_team": "England",
+      "id": "5ff7744314f224c18d1604ee9cc19263"
+    },
+    "658ac8cbf214ca3cc150109b4ddc1e74": {
+      "away_team": "Senegal",
+      "commence_time": "2026-07-01T20:00:00Z",
+      "home_team": "Belgium",
+      "id": "658ac8cbf214ca3cc150109b4ddc1e74"
+    },
+    "852b4baf0be4b9eef2a30596a8d39249": {
+      "away_team": "Croatia",
+      "commence_time": "2026-07-02T23:00:00Z",
+      "home_team": "Portugal",
+      "id": "852b4baf0be4b9eef2a30596a8d39249"
+    },
+    "88e032a2b2e5042d26db3f0da1df924a": {
+      "away_team": "Ghana",
+      "commence_time": "2026-07-04T01:30:00Z",
+      "home_team": "Colombia",
+      "id": "88e032a2b2e5042d26db3f0da1df924a"
+    },
+    "9c7073ae2c29ee4881bb695f92168c68": {
+      "away_team": "Morocco",
+      "commence_time": "2026-07-04T17:00:00Z",
+      "home_team": "Canada",
+      "id": "9c7073ae2c29ee4881bb695f92168c68"
+    },
+    "9eeb4876001f5a52ce3c3641bd5f1f2f": {
+      "away_team": "Bosnia & Herzegovina",
+      "commence_time": "2026-07-02T00:00:00Z",
+      "home_team": "USA",
+      "id": "9eeb4876001f5a52ce3c3641bd5f1f2f"
+    },
+    "a4634eae056c18d705e3feffb347163f": {
+      "away_team": "Norway",
+      "commence_time": "2026-07-05T20:00:00Z",
+      "home_team": "Brazil",
+      "id": "a4634eae056c18d705e3feffb347163f"
+    },
+    "a518ac20df8f5c732b881e213ae0c230": {
+      "away_team": "Austria",
+      "commence_time": "2026-07-02T19:00:00Z",
+      "home_team": "Spain",
+      "id": "a518ac20df8f5c732b881e213ae0c230"
+    },
+    "c17fe2e46190d7ab6af01504ff240e82": {
+      "away_team": "Algeria",
+      "commence_time": "2026-07-03T03:00:00Z",
+      "home_team": "Switzerland",
+      "id": "c17fe2e46190d7ab6af01504ff240e82"
+    },
+    "c798a1ffdeda28e82d930e7145a8ff10": {
+      "away_team": "France",
+      "commence_time": "2026-07-04T21:00:00Z",
+      "home_team": "Paraguay",
+      "id": "c798a1ffdeda28e82d930e7145a8ff10"
+    },
+    "fb270a3dac2b682c861bd674a5ff4a04": {
+      "away_team": "Egypt",
+      "commence_time": "2026-07-03T18:00:00Z",
+      "home_team": "Australia",
+      "id": "fb270a3dac2b682c861bd674a5ff4a04"
+    }
   }
 }
