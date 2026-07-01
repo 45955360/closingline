@@ -136,5 +136,74 @@
         "overround": 1.02496
       }
     }
+  },
+  {
+    "match_id": "658ac8cbf214ca3cc150109b4ddc1e74",
+    "home_team": "Belgium",
+    "away_team": "Senegal",
+    "commence_time_utc": "2026-07-01T20:00:00Z",
+    "closing_snapshot_utc": "2026-07-01T19:55:36Z",
+    "captured_at_utc": "2026-07-01T20:17:17Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "Belgium": 1.98,
+          "Senegal": 4.37,
+          "Draw": 3.46
+        },
+        "fair_shin": {
+          "Belgium": 0.49649,
+          "Senegal": 0.22184,
+          "Draw": 0.28167
+        },
+        "fair_multiplicative": {
+          "Belgium": 0.49374,
+          "Senegal": 0.22371,
+          "Draw": 0.28255
+        },
+        "overround": 1.0229
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "Belgium": 1.98,
+          "Senegal": 1.95
+        },
+        "points": {
+          "Belgium": -0.5,
+          "Senegal": 0.5
+        },
+        "fair_shin": {
+          "Belgium": 0.49611,
+          "Senegal": 0.50389
+        },
+        "fair_multiplicative": {
+          "Belgium": 0.49618,
+          "Senegal": 0.50382
+        },
+        "overround": 1.01787
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 1.99,
+          "Under": 1.91
+        },
+        "points": {
+          "Over": 2.75,
+          "Under": 2.75
+        },
+        "fair_shin": {
+          "Over": 0.48948,
+          "Under": 0.51052
+        },
+        "fair_multiplicative": {
+          "Over": 0.48974,
+          "Under": 0.51026
+        },
+        "overround": 1.02607
+      }
+    }
   }
 ]
