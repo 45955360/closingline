@@ -67,5 +67,74 @@
         "overround": 1.02319
       }
     }
+  },
+  {
+    "match_id": "5ff7744314f224c18d1604ee9cc19263",
+    "home_team": "England",
+    "away_team": "DR Congo",
+    "commence_time_utc": "2026-07-01T16:00:00Z",
+    "closing_snapshot_utc": "2026-07-01T15:55:36Z",
+    "captured_at_utc": "2026-07-01T16:11:37Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "DR Congo": 15.0,
+          "England": 1.3,
+          "Draw": 5.2
+        },
+        "fair_shin": {
+          "DR Congo": 0.0593,
+          "England": 0.75685,
+          "Draw": 0.18385
+        },
+        "fair_multiplicative": {
+          "DR Congo": 0.06484,
+          "England": 0.74813,
+          "Draw": 0.18703
+        },
+        "overround": 1.02821
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "DR Congo": 1.93,
+          "England": 2.01
+        },
+        "points": {
+          "DR Congo": 1.5,
+          "England": -1.5
+        },
+        "fair_shin": {
+          "DR Congo": 0.51031,
+          "England": 0.48969
+        },
+        "fair_multiplicative": {
+          "DR Congo": 0.51015,
+          "England": 0.48985
+        },
+        "overround": 1.01565
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 2.04,
+          "Under": 1.87
+        },
+        "points": {
+          "Over": 2.5,
+          "Under": 2.5
+        },
+        "fair_shin": {
+          "Over": 0.47772,
+          "Under": 0.52228
+        },
+        "fair_multiplicative": {
+          "Over": 0.47826,
+          "Under": 0.52174
+        },
+        "overround": 1.02496
+      }
+    }
   }
 ]
