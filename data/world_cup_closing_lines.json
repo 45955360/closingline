@@ -205,5 +205,74 @@
         "overround": 1.02607
       }
     }
+  },
+  {
+    "match_id": "9eeb4876001f5a52ce3c3641bd5f1f2f",
+    "home_team": "USA",
+    "away_team": "Bosnia & Herzegovina",
+    "commence_time_utc": "2026-07-02T00:00:00Z",
+    "closing_snapshot_utc": "2026-07-01T23:55:37Z",
+    "captured_at_utc": "2026-07-02T00:16:55Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "Bosnia & Herzegovina": 9.5,
+          "USA": 1.38,
+          "Draw": 5.25
+        },
+        "fair_shin": {
+          "Bosnia & Herzegovina": 0.09968,
+          "USA": 0.71591,
+          "Draw": 0.18442
+        },
+        "fair_multiplicative": {
+          "Bosnia & Herzegovina": 0.10316,
+          "USA": 0.71017,
+          "Draw": 0.18667
+        },
+        "overround": 1.02038
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "Bosnia & Herzegovina": 1.89,
+          "USA": 2.05
+        },
+        "points": {
+          "Bosnia & Herzegovina": 1.5,
+          "USA": -1.5
+        },
+        "fair_shin": {
+          "Bosnia & Herzegovina": 0.52065,
+          "USA": 0.47935
+        },
+        "fair_multiplicative": {
+          "Bosnia & Herzegovina": 0.5203,
+          "USA": 0.4797
+        },
+        "overround": 1.01691
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 2.14,
+          "Under": 1.79
+        },
+        "points": {
+          "Over": 3.0,
+          "Under": 3.0
+        },
+        "fair_shin": {
+          "Over": 0.45432,
+          "Under": 0.54568
+        },
+        "fair_multiplicative": {
+          "Over": 0.45547,
+          "Under": 0.54453
+        },
+        "overround": 1.02595
+      }
+    }
   }
 ]
