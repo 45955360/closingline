@@ -274,5 +274,74 @@
         "overround": 1.02595
       }
     }
+  },
+  {
+    "match_id": "a518ac20df8f5c732b881e213ae0c230",
+    "home_team": "Spain",
+    "away_team": "Austria",
+    "commence_time_utc": "2026-07-02T19:00:00Z",
+    "closing_snapshot_utc": "2026-07-02T18:55:37Z",
+    "captured_at_utc": "2026-07-02T19:54:35Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "Austria": 10.0,
+          "Spain": 1.37,
+          "Draw": 5.15
+        },
+        "fair_shin": {
+          "Austria": 0.09344,
+          "Spain": 0.71958,
+          "Draw": 0.18698
+        },
+        "fair_multiplicative": {
+          "Austria": 0.09765,
+          "Spain": 0.71275,
+          "Draw": 0.1896
+        },
+        "overround": 1.0241
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "Austria": 1.89,
+          "Spain": 2.04
+        },
+        "points": {
+          "Austria": 1.5,
+          "Spain": -1.5
+        },
+        "fair_shin": {
+          "Austria": 0.51945,
+          "Spain": 0.48055
+        },
+        "fair_multiplicative": {
+          "Austria": 0.51908,
+          "Spain": 0.48092
+        },
+        "overround": 1.0193
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 1.91,
+          "Under": 2.0
+        },
+        "points": {
+          "Over": 2.75,
+          "Under": 2.75
+        },
+        "fair_shin": {
+          "Over": 0.51178,
+          "Under": 0.48822
+        },
+        "fair_multiplicative": {
+          "Over": 0.51151,
+          "Under": 0.48849
+        },
+        "overround": 1.02356
+      }
+    }
   }
 ]
