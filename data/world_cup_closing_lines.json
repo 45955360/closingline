@@ -343,5 +343,74 @@
         "overround": 1.02356
       }
     }
+  },
+  {
+    "match_id": "852b4baf0be4b9eef2a30596a8d39249",
+    "home_team": "Portugal",
+    "away_team": "Croatia",
+    "commence_time_utc": "2026-07-02T23:00:00Z",
+    "closing_snapshot_utc": "2026-07-02T22:55:37Z",
+    "captured_at_utc": "2026-07-02T23:40:42Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "Croatia": 5.95,
+          "Portugal": 1.72,
+          "Draw": 3.7
+        },
+        "fair_shin": {
+          "Croatia": 0.16234,
+          "Portugal": 0.57364,
+          "Draw": 0.26402
+        },
+        "fair_multiplicative": {
+          "Croatia": 0.16481,
+          "Portugal": 0.57014,
+          "Draw": 0.26504
+        },
+        "overround": 1.01973
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "Croatia": 2.03,
+          "Portugal": 1.91
+        },
+        "points": {
+          "Croatia": 0.75,
+          "Portugal": -0.75
+        },
+        "fair_shin": {
+          "Croatia": 0.48453,
+          "Portugal": 0.51547
+        },
+        "fair_multiplicative": {
+          "Croatia": 0.48477,
+          "Portugal": 0.51523
+        },
+        "overround": 1.01617
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 1.79,
+          "Under": 2.14
+        },
+        "points": {
+          "Over": 2.5,
+          "Under": 2.5
+        },
+        "fair_shin": {
+          "Over": 0.54568,
+          "Under": 0.45432
+        },
+        "fair_multiplicative": {
+          "Over": 0.54453,
+          "Under": 0.45547
+        },
+        "overround": 1.02595
+      }
+    }
   }
 ]
