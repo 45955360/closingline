@@ -412,5 +412,74 @@
         "overround": 1.02595
       }
     }
+  },
+  {
+    "match_id": "c17fe2e46190d7ab6af01504ff240e82",
+    "home_team": "Switzerland",
+    "away_team": "Algeria",
+    "commence_time_utc": "2026-07-03T03:00:00Z",
+    "closing_snapshot_utc": "2026-07-03T02:55:36Z",
+    "captured_at_utc": "2026-07-03T05:01:37Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "Algeria": 4.51,
+          "Switzerland": 2.02,
+          "Draw": 3.26
+        },
+        "fair_shin": {
+          "Algeria": 0.21459,
+          "Switzerland": 0.48631,
+          "Draw": 0.2991
+        },
+        "fair_multiplicative": {
+          "Algeria": 0.21663,
+          "Switzerland": 0.48367,
+          "Draw": 0.2997
+        },
+        "overround": 1.02353
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "Algeria": 1.91,
+          "Switzerland": 2.03
+        },
+        "points": {
+          "Algeria": 0.5,
+          "Switzerland": -0.5
+        },
+        "fair_shin": {
+          "Algeria": 0.51547,
+          "Switzerland": 0.48453
+        },
+        "fair_multiplicative": {
+          "Algeria": 0.51523,
+          "Switzerland": 0.48477
+        },
+        "overround": 1.01617
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 1.92,
+          "Under": 1.99
+        },
+        "points": {
+          "Over": 2.25,
+          "Under": 2.25
+        },
+        "fair_shin": {
+          "Over": 0.50916,
+          "Under": 0.49084
+        },
+        "fair_multiplicative": {
+          "Over": 0.50895,
+          "Under": 0.49105
+        },
+        "overround": 1.02335
+      }
+    }
   }
 ]
