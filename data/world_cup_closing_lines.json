@@ -481,5 +481,74 @@
         "overround": 1.02335
       }
     }
+  },
+  {
+    "match_id": "fb270a3dac2b682c861bd674a5ff4a04",
+    "home_team": "Australia",
+    "away_team": "Egypt",
+    "commence_time_utc": "2026-07-03T18:00:00Z",
+    "closing_snapshot_utc": "2026-07-03T17:55:37Z",
+    "captured_at_utc": "2026-07-03T18:03:12Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "Australia": 3.7,
+          "Egypt": 2.47,
+          "Draw": 2.88
+        },
+        "fair_shin": {
+          "Australia": 0.26321,
+          "Egypt": 0.39705,
+          "Draw": 0.33973
+        },
+        "fair_multiplicative": {
+          "Australia": 0.26436,
+          "Egypt": 0.39601,
+          "Draw": 0.33963
+        },
+        "overround": 1.02235
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "Australia": 1.88,
+          "Egypt": 2.06
+        },
+        "points": {
+          "Australia": 0.25,
+          "Egypt": -0.25
+        },
+        "fair_shin": {
+          "Australia": 0.52324,
+          "Egypt": 0.47676
+        },
+        "fair_multiplicative": {
+          "Australia": 0.52284,
+          "Egypt": 0.47716
+        },
+        "overround": 1.01735
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 2.16,
+          "Under": 1.78
+        },
+        "points": {
+          "Over": 2.0,
+          "Under": 2.0
+        },
+        "fair_shin": {
+          "Over": 0.45058,
+          "Under": 0.54942
+        },
+        "fair_multiplicative": {
+          "Over": 0.45178,
+          "Under": 0.54822
+        },
+        "overround": 1.02476
+      }
+    }
   }
 ]
