@@ -8,6 +8,12 @@
     "f58c55a9da96af562c31b7c5cca40187": "2026-07-01T02:03:01Z"
   },
   "known": {
+    "16ed3adcf661b3a9bea39871a2d204df": {
+      "away_team": "Spain",
+      "commence_time": "2026-07-06T19:00:00Z",
+      "home_team": "Portugal",
+      "id": "16ed3adcf661b3a9bea39871a2d204df"
+    },
     "3e161b2448ed76d6b0c0f5bda6fd5bf2": {
       "away_team": "Cape Verde",
       "commence_time": "2026-07-03T22:00:00Z",
