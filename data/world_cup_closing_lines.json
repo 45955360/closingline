@@ -550,5 +550,74 @@
         "overround": 1.02476
       }
     }
+  },
+  {
+    "match_id": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
+    "home_team": "Argentina",
+    "away_team": "Cape Verde",
+    "commence_time_utc": "2026-07-03T22:00:00Z",
+    "closing_snapshot_utc": "2026-07-03T21:55:36Z",
+    "captured_at_utc": "2026-07-03T22:44:50Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "Argentina": 1.15,
+          "Cape Verde": 23.0,
+          "Draw": 9.0
+        },
+        "fair_shin": {
+          "Argentina": 0.85836,
+          "Cape Verde": 0.03733,
+          "Draw": 0.10431
+        },
+        "fair_multiplicative": {
+          "Argentina": 0.84906,
+          "Cape Verde": 0.04245,
+          "Draw": 0.10849
+        },
+        "overround": 1.02415
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "Argentina": 2.03,
+          "Cape Verde": 1.89
+        },
+        "points": {
+          "Argentina": -2.25,
+          "Cape Verde": 2.25
+        },
+        "fair_shin": {
+          "Argentina": 0.48176,
+          "Cape Verde": 0.51824
+        },
+        "fair_multiplicative": {
+          "Argentina": 0.48214,
+          "Cape Verde": 0.51786
+        },
+        "overround": 1.02171
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 2.07,
+          "Under": 1.85
+        },
+        "points": {
+          "Over": 3.0,
+          "Under": 3.0
+        },
+        "fair_shin": {
+          "Over": 0.47128,
+          "Under": 0.52872
+        },
+        "fair_multiplicative": {
+          "Over": 0.47194,
+          "Under": 0.52806
+        },
+        "overround": 1.02363
+      }
+    }
   }
 ]
