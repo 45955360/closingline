@@ -757,5 +757,74 @@
         "overround": 1.02425
       }
     }
+  },
+  {
+    "match_id": "c798a1ffdeda28e82d930e7145a8ff10",
+    "home_team": "Paraguay",
+    "away_team": "France",
+    "commence_time_utc": "2026-07-04T21:00:00Z",
+    "closing_snapshot_utc": "2026-07-04T20:55:37Z",
+    "captured_at_utc": "2026-07-04T21:08:23Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "France": 1.22,
+          "Paraguay": 17.0,
+          "Draw": 6.75
+        },
+        "fair_shin": {
+          "France": 0.80765,
+          "Paraguay": 0.05192,
+          "Draw": 0.14044
+        },
+        "fair_multiplicative": {
+          "France": 0.7984,
+          "Paraguay": 0.0573,
+          "Draw": 0.1443
+        },
+        "overround": 1.02664
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "France": 1.94,
+          "Paraguay": 1.98
+        },
+        "points": {
+          "France": -1.75,
+          "Paraguay": 1.75
+        },
+        "fair_shin": {
+          "France": 0.50521,
+          "Paraguay": 0.49479
+        },
+        "fair_multiplicative": {
+          "France": 0.5051,
+          "Paraguay": 0.4949
+        },
+        "overround": 1.02051
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 1.92,
+          "Under": 1.99
+        },
+        "points": {
+          "Over": 2.75,
+          "Under": 2.75
+        },
+        "fair_shin": {
+          "Over": 0.50916,
+          "Under": 0.49084
+        },
+        "fair_multiplicative": {
+          "Over": 0.50895,
+          "Under": 0.49105
+        },
+        "overround": 1.02335
+      }
+    }
   }
 ]
