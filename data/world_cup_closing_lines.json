@@ -619,5 +619,74 @@
         "overround": 1.02363
       }
     }
+  },
+  {
+    "match_id": "88e032a2b2e5042d26db3f0da1df924a",
+    "home_team": "Colombia",
+    "away_team": "Ghana",
+    "commence_time_utc": "2026-07-04T01:30:00Z",
+    "closing_snapshot_utc": "2026-07-04T01:25:37Z",
+    "captured_at_utc": "2026-07-04T04:55:57Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "Colombia": 1.45,
+          "Ghana": 8.9,
+          "Draw": 4.25
+        },
+        "fair_shin": {
+          "Colombia": 0.67406,
+          "Ghana": 0.10215,
+          "Draw": 0.22379
+        },
+        "fair_multiplicative": {
+          "Colombia": 0.66485,
+          "Ghana": 0.10832,
+          "Draw": 0.22683
+        },
+        "overround": 1.03731
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "Colombia": 2.06,
+          "Ghana": 1.88
+        },
+        "points": {
+          "Colombia": -1.25,
+          "Ghana": 1.25
+        },
+        "fair_shin": {
+          "Colombia": 0.47676,
+          "Ghana": 0.52324
+        },
+        "fair_multiplicative": {
+          "Colombia": 0.47716,
+          "Ghana": 0.52284
+        },
+        "overround": 1.01735
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 1.88,
+          "Under": 2.03
+        },
+        "points": {
+          "Over": 2.25,
+          "Under": 2.25
+        },
+        "fair_shin": {
+          "Over": 0.51965,
+          "Under": 0.48035
+        },
+        "fair_multiplicative": {
+          "Over": 0.51918,
+          "Under": 0.48082
+        },
+        "overround": 1.02453
+      }
+    }
   }
 ]
