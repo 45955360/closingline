@@ -688,5 +688,74 @@
         "overround": 1.02453
       }
     }
+  },
+  {
+    "match_id": "9c7073ae2c29ee4881bb695f92168c68",
+    "home_team": "Canada",
+    "away_team": "Morocco",
+    "commence_time_utc": "2026-07-04T17:00:00Z",
+    "closing_snapshot_utc": "2026-07-04T16:55:36Z",
+    "captured_at_utc": "2026-07-04T17:38:17Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "Canada": 5.23,
+          "Morocco": 1.88,
+          "Draw": 3.35
+        },
+        "fair_shin": {
+          "Canada": 0.1848,
+          "Morocco": 0.52368,
+          "Draw": 0.29152
+        },
+        "fair_multiplicative": {
+          "Canada": 0.18716,
+          "Morocco": 0.52065,
+          "Draw": 0.29219
+        },
+        "overround": 1.02163
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "Canada": 2.06,
+          "Morocco": 1.88
+        },
+        "points": {
+          "Canada": 0.5,
+          "Morocco": -0.5
+        },
+        "fair_shin": {
+          "Canada": 0.47676,
+          "Morocco": 0.52324
+        },
+        "fair_multiplicative": {
+          "Canada": 0.47716,
+          "Morocco": 0.52284
+        },
+        "overround": 1.01735
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 2.08,
+          "Under": 1.84
+        },
+        "points": {
+          "Over": 2.25,
+          "Under": 2.25
+        },
+        "fair_shin": {
+          "Over": 0.46865,
+          "Under": 0.53135
+        },
+        "fair_multiplicative": {
+          "Over": 0.46939,
+          "Under": 0.53061
+        },
+        "overround": 1.02425
+      }
+    }
   }
 ]
