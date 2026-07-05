@@ -826,5 +826,74 @@
         "overround": 1.02335
       }
     }
+  },
+  {
+    "match_id": "a4634eae056c18d705e3feffb347163f",
+    "home_team": "Brazil",
+    "away_team": "Norway",
+    "commence_time_utc": "2026-07-05T20:00:00Z",
+    "closing_snapshot_utc": "2026-07-05T19:55:36Z",
+    "captured_at_utc": "2026-07-05T21:12:49Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "Brazil": 1.78,
+          "Norway": 5.08,
+          "Draw": 3.76
+        },
+        "fair_shin": {
+          "Brazil": 0.55226,
+          "Norway": 0.18954,
+          "Draw": 0.25821
+        },
+        "fair_multiplicative": {
+          "Brazil": 0.54831,
+          "Norway": 0.19212,
+          "Draw": 0.25957
+        },
+        "overround": 1.02461
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "Brazil": 2.01,
+          "Norway": 1.93
+        },
+        "points": {
+          "Brazil": -0.75,
+          "Norway": 0.75
+        },
+        "fair_shin": {
+          "Brazil": 0.48969,
+          "Norway": 0.51031
+        },
+        "fair_multiplicative": {
+          "Brazil": 0.48985,
+          "Norway": 0.51015
+        },
+        "overround": 1.01565
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 1.93,
+          "Under": 1.98
+        },
+        "points": {
+          "Over": 2.75,
+          "Under": 2.75
+        },
+        "fair_shin": {
+          "Over": 0.50654,
+          "Under": 0.49346
+        },
+        "fair_multiplicative": {
+          "Over": 0.50639,
+          "Under": 0.49361
+        },
+        "overround": 1.02319
+      }
+    }
   }
 ]
