@@ -895,5 +895,74 @@
         "overround": 1.02319
       }
     }
+  },
+  {
+    "match_id": "e61a7b471cadc8e3849158ed59d49cab",
+    "home_team": "Mexico",
+    "away_team": "England",
+    "commence_time_utc": "2026-07-06T01:00:00Z",
+    "closing_snapshot_utc": "2026-07-06T00:55:37Z",
+    "captured_at_utc": "2026-07-06T01:18:05Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "England": 2.56,
+          "Mexico": 3.25,
+          "Draw": 3.09
+        },
+        "fair_shin": {
+          "England": 0.38304,
+          "Mexico": 0.30056,
+          "Draw": 0.3164
+        },
+        "fair_multiplicative": {
+          "England": 0.38224,
+          "Mexico": 0.30109,
+          "Draw": 0.31668
+        },
+        "overround": 1.02194
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "England": 1.75,
+          "Mexico": 2.24
+        },
+        "points": {
+          "England": -0.0,
+          "Mexico": 0.0
+        },
+        "fair_shin": {
+          "England": 0.5625,
+          "Mexico": 0.4375
+        },
+        "fair_multiplicative": {
+          "England": 0.5614,
+          "Mexico": 0.4386
+        },
+        "overround": 1.01786
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 1.91,
+          "Under": 2.0
+        },
+        "points": {
+          "Over": 2.0,
+          "Under": 2.0
+        },
+        "fair_shin": {
+          "Over": 0.51178,
+          "Under": 0.48822
+        },
+        "fair_multiplicative": {
+          "Over": 0.51151,
+          "Under": 0.48849
+        },
+        "overround": 1.02356
+      }
+    }
   }
 ]
