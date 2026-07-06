@@ -964,5 +964,74 @@
         "overround": 1.02356
       }
     }
+  },
+  {
+    "match_id": "16ed3adcf661b3a9bea39871a2d204df",
+    "home_team": "Portugal",
+    "away_team": "Spain",
+    "commence_time_utc": "2026-07-06T19:00:00Z",
+    "closing_snapshot_utc": "2026-07-06T18:55:37Z",
+    "captured_at_utc": "2026-07-06T20:28:57Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "Portugal": 4.04,
+          "Spain": 2.01,
+          "Draw": 3.59
+        },
+        "fair_shin": {
+          "Portugal": 0.24021,
+          "Spain": 0.48874,
+          "Draw": 0.27105
+        },
+        "fair_multiplicative": {
+          "Portugal": 0.24182,
+          "Spain": 0.48605,
+          "Draw": 0.27213
+        },
+        "overround": 1.02359
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "Portugal": 1.92,
+          "Spain": 2.02
+        },
+        "points": {
+          "Portugal": 0.5,
+          "Spain": -0.5
+        },
+        "fair_shin": {
+          "Portugal": 0.51289,
+          "Spain": 0.48711
+        },
+        "fair_multiplicative": {
+          "Portugal": 0.51269,
+          "Spain": 0.48731
+        },
+        "overround": 1.01588
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 1.78,
+          "Under": 2.16
+        },
+        "points": {
+          "Over": 2.5,
+          "Under": 2.5
+        },
+        "fair_shin": {
+          "Over": 0.54942,
+          "Under": 0.45058
+        },
+        "fair_multiplicative": {
+          "Over": 0.54822,
+          "Under": 0.45178
+        },
+        "overround": 1.02476
+      }
+    }
   }
 ]
