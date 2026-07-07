@@ -1033,5 +1033,74 @@
         "overround": 1.02476
       }
     }
+  },
+  {
+    "match_id": "810f80b3ae79f5e86b3747ca15718ed8",
+    "home_team": "USA",
+    "away_team": "Belgium",
+    "commence_time_utc": "2026-07-07T00:00:00Z",
+    "closing_snapshot_utc": "2026-07-06T23:55:37Z",
+    "captured_at_utc": "2026-07-07T01:09:46Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "Belgium": 3.0,
+          "USA": 2.62,
+          "Draw": 3.27
+        },
+        "fair_shin": {
+          "Belgium": 0.32643,
+          "USA": 0.37452,
+          "Draw": 0.29905
+        },
+        "fair_multiplicative": {
+          "Belgium": 0.32653,
+          "USA": 0.37389,
+          "Draw": 0.29957
+        },
+        "overround": 1.02082
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "Belgium": 2.11,
+          "USA": 1.84
+        },
+        "points": {
+          "Belgium": -0.0,
+          "USA": 0.0
+        },
+        "fair_shin": {
+          "Belgium": 0.46523,
+          "USA": 0.53477
+        },
+        "fair_multiplicative": {
+          "Belgium": 0.46582,
+          "USA": 0.53418
+        },
+        "overround": 1.01741
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 2.08,
+          "Under": 1.84
+        },
+        "points": {
+          "Over": 2.75,
+          "Under": 2.75
+        },
+        "fair_shin": {
+          "Over": 0.46865,
+          "Under": 0.53135
+        },
+        "fair_multiplicative": {
+          "Over": 0.46939,
+          "Under": 0.53061
+        },
+        "overround": 1.02425
+      }
+    }
   }
 ]
