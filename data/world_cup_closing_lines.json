@@ -1171,5 +1171,74 @@
         "overround": 1.02338
       }
     }
+  },
+  {
+    "match_id": "a6da973c5749ce60adab77d64b3664f4",
+    "home_team": "Switzerland",
+    "away_team": "Colombia",
+    "commence_time_utc": "2026-07-07T20:00:00Z",
+    "closing_snapshot_utc": "2026-07-07T19:55:37Z",
+    "captured_at_utc": "2026-07-07T20:28:03Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "Colombia": 2.46,
+          "Switzerland": 3.7,
+          "Draw": 2.9
+        },
+        "fair_shin": {
+          "Colombia": 0.39895,
+          "Switzerland": 0.26345,
+          "Draw": 0.3376
+        },
+        "fair_multiplicative": {
+          "Colombia": 0.39791,
+          "Switzerland": 0.26456,
+          "Draw": 0.33754
+        },
+        "overround": 1.0216
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "Colombia": 2.05,
+          "Switzerland": 1.88
+        },
+        "points": {
+          "Colombia": -0.25,
+          "Switzerland": 0.25
+        },
+        "fair_shin": {
+          "Colombia": 0.47794,
+          "Switzerland": 0.52206
+        },
+        "fair_multiplicative": {
+          "Colombia": 0.47837,
+          "Switzerland": 0.52163
+        },
+        "overround": 1.01972
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 2.19,
+          "Under": 1.76
+        },
+        "points": {
+          "Over": 2.25,
+          "Under": 2.25
+        },
+        "fair_shin": {
+          "Over": 0.44422,
+          "Under": 0.55578
+        },
+        "fair_multiplicative": {
+          "Over": 0.44557,
+          "Under": 0.55443
+        },
+        "overround": 1.0248
+      }
+    }
   }
 ]
