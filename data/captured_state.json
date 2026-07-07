@@ -131,6 +131,12 @@
       "commence_time": "2026-07-03T18:00:00Z",
       "home_team": "Australia",
       "id": "fb270a3dac2b682c861bd674a5ff4a04"
+    },
+    "fca257de4583bd4bc592e8b2a8f24ad7": {
+      "away_team": "Belgium",
+      "commence_time": "2026-07-10T19:00:00Z",
+      "home_team": "Spain",
+      "id": "fca257de4583bd4bc592e8b2a8f24ad7"
     }
   }
 }
