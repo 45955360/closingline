@@ -1102,5 +1102,74 @@
         "overround": 1.02425
       }
     }
+  },
+  {
+    "match_id": "190922affd0be754bfefd71548dbf90d",
+    "home_team": "Argentina",
+    "away_team": "Egypt",
+    "commence_time_utc": "2026-07-07T16:01:00Z",
+    "closing_snapshot_utc": "2026-07-07T16:00:37Z",
+    "captured_at_utc": "2026-07-07T16:12:50Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "Argentina": 1.36,
+          "Egypt": 11.75,
+          "Draw": 4.8
+        },
+        "fair_shin": {
+          "Argentina": 0.72293,
+          "Egypt": 0.07744,
+          "Draw": 0.19964
+        },
+        "fair_multiplicative": {
+          "Argentina": 0.71476,
+          "Egypt": 0.08273,
+          "Draw": 0.20251
+        },
+        "overround": 1.02873
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "Argentina": 2.07,
+          "Egypt": 1.87
+        },
+        "points": {
+          "Argentina": -1.5,
+          "Egypt": 1.5
+        },
+        "fair_shin": {
+          "Argentina": 0.47417,
+          "Egypt": 0.52583
+        },
+        "fair_multiplicative": {
+          "Argentina": 0.47462,
+          "Egypt": 0.52538
+        },
+        "overround": 1.01785
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 2.11,
+          "Under": 1.82
+        },
+        "points": {
+          "Over": 2.5,
+          "Under": 2.5
+        },
+        "fair_shin": {
+          "Over": 0.46224,
+          "Under": 0.53776
+        },
+        "fair_multiplicative": {
+          "Over": 0.4631,
+          "Under": 0.5369
+        },
+        "overround": 1.02338
+      }
+    }
   }
 ]
