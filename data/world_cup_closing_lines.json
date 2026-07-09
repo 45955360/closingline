@@ -1240,5 +1240,74 @@
         "overround": 1.0248
       }
     }
+  },
+  {
+    "match_id": "b6e926d7f026782b9cab2fa02b823d92",
+    "home_team": "France",
+    "away_team": "Morocco",
+    "commence_time_utc": "2026-07-09T20:00:00Z",
+    "closing_snapshot_utc": "2026-07-09T19:55:37Z",
+    "captured_at_utc": "2026-07-09T20:07:16Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "France": 1.61,
+          "Morocco": 6.9,
+          "Draw": 3.95
+        },
+        "fair_shin": {
+          "France": 0.61337,
+          "Morocco": 0.13946,
+          "Draw": 0.24716
+        },
+        "fair_multiplicative": {
+          "France": 0.60941,
+          "Morocco": 0.1422,
+          "Draw": 0.24839
+        },
+        "overround": 1.01921
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "France": 2.01,
+          "Morocco": 1.93
+        },
+        "points": {
+          "France": -1.0,
+          "Morocco": 1.0
+        },
+        "fair_shin": {
+          "France": 0.48969,
+          "Morocco": 0.51031
+        },
+        "fair_multiplicative": {
+          "France": 0.48985,
+          "Morocco": 0.51015
+        },
+        "overround": 1.01565
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 1.91,
+          "Under": 2.0
+        },
+        "points": {
+          "Over": 2.5,
+          "Under": 2.5
+        },
+        "fair_shin": {
+          "Over": 0.51178,
+          "Under": 0.48822
+        },
+        "fair_multiplicative": {
+          "Over": 0.51151,
+          "Under": 0.48849
+        },
+        "overround": 1.02356
+      }
+    }
   }
 ]
