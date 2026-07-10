@@ -1309,5 +1309,74 @@
         "overround": 1.02356
       }
     }
+  },
+  {
+    "match_id": "fca257de4583bd4bc592e8b2a8f24ad7",
+    "home_team": "Spain",
+    "away_team": "Belgium",
+    "commence_time_utc": "2026-07-10T19:00:00Z",
+    "closing_snapshot_utc": "2026-07-10T18:55:37Z",
+    "captured_at_utc": "2026-07-10T19:05:47Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "Belgium": 5.7,
+          "Spain": 1.67,
+          "Draw": 3.95
+        },
+        "fair_shin": {
+          "Belgium": 0.16745,
+          "Spain": 0.58793,
+          "Draw": 0.24462
+        },
+        "fair_multiplicative": {
+          "Belgium": 0.17076,
+          "Spain": 0.58283,
+          "Draw": 0.24641
+        },
+        "overround": 1.02741
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "Belgium": 2.07,
+          "Spain": 1.87
+        },
+        "points": {
+          "Belgium": 0.75,
+          "Spain": -0.75
+        },
+        "fair_shin": {
+          "Belgium": 0.47417,
+          "Spain": 0.52583
+        },
+        "fair_multiplicative": {
+          "Belgium": 0.47462,
+          "Spain": 0.52538
+        },
+        "overround": 1.01785
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 2.03,
+          "Under": 1.88
+        },
+        "points": {
+          "Over": 2.75,
+          "Under": 2.75
+        },
+        "fair_shin": {
+          "Over": 0.48035,
+          "Under": 0.51965
+        },
+        "fair_multiplicative": {
+          "Over": 0.48082,
+          "Under": 0.51918
+        },
+        "overround": 1.02453
+      }
+    }
   }
 ]
