@@ -1378,5 +1378,74 @@
         "overround": 1.02453
       }
     }
+  },
+  {
+    "match_id": "e66e4478b739fa0657a7a11235e1fcee",
+    "home_team": "Norway",
+    "away_team": "England",
+    "commence_time_utc": "2026-07-11T21:01:00Z",
+    "closing_snapshot_utc": "2026-07-11T21:00:37Z",
+    "captured_at_utc": "2026-07-11T21:25:52Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "England": 1.83,
+          "Norway": 4.53,
+          "Draw": 3.88
+        },
+        "fair_shin": {
+          "England": 0.53688,
+          "Norway": 0.21319,
+          "Draw": 0.24994
+        },
+        "fair_multiplicative": {
+          "England": 0.53316,
+          "Norway": 0.21538,
+          "Draw": 0.25146
+        },
+        "overround": 1.02493
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "England": 1.83,
+          "Norway": 2.12
+        },
+        "points": {
+          "England": -0.5,
+          "Norway": 0.5
+        },
+        "fair_shin": {
+          "England": 0.53737,
+          "Norway": 0.46263
+        },
+        "fair_multiplicative": {
+          "England": 0.53671,
+          "Norway": 0.46329
+        },
+        "overround": 1.01815
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 1.98,
+          "Under": 1.93
+        },
+        "points": {
+          "Over": 2.75,
+          "Under": 2.75
+        },
+        "fair_shin": {
+          "Over": 0.49346,
+          "Under": 0.50654
+        },
+        "fair_multiplicative": {
+          "Over": 0.49361,
+          "Under": 0.50639
+        },
+        "overround": 1.02319
+      }
+    }
   }
 ]
