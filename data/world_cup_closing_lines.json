@@ -1447,5 +1447,74 @@
         "overround": 1.02319
       }
     }
+  },
+  {
+    "match_id": "200d9cd5eda092c7eb778cc104cd2fd2",
+    "home_team": "Argentina",
+    "away_team": "Switzerland",
+    "commence_time_utc": "2026-07-12T01:00:00Z",
+    "closing_snapshot_utc": "2026-07-12T00:55:37Z",
+    "captured_at_utc": "2026-07-12T01:07:11Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "Argentina": 1.74,
+          "Switzerland": 6.34,
+          "Draw": 3.39
+        },
+        "fair_shin": {
+          "Argentina": 0.56399,
+          "Switzerland": 0.14986,
+          "Draw": 0.28614
+        },
+        "fair_multiplicative": {
+          "Argentina": 0.55937,
+          "Switzerland": 0.15352,
+          "Draw": 0.28711
+        },
+        "overround": 1.02743
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "Argentina": 1.98,
+          "Switzerland": 1.95
+        },
+        "points": {
+          "Argentina": -0.75,
+          "Switzerland": 0.75
+        },
+        "fair_shin": {
+          "Argentina": 0.49611,
+          "Switzerland": 0.50389
+        },
+        "fair_multiplicative": {
+          "Argentina": 0.49618,
+          "Switzerland": 0.50382
+        },
+        "overround": 1.01787
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 2.06,
+          "Under": 1.85
+        },
+        "points": {
+          "Over": 2.25,
+          "Under": 2.25
+        },
+        "fair_shin": {
+          "Over": 0.47245,
+          "Under": 0.52755
+        },
+        "fair_multiplicative": {
+          "Over": 0.47315,
+          "Under": 0.52685
+        },
+        "overround": 1.02598
+      }
+    }
   }
 ]
