@@ -1516,5 +1516,74 @@
         "overround": 1.02598
       }
     }
+  },
+  {
+    "match_id": "f9aa13a662d1658e5a02cfc06d6a2d73",
+    "home_team": "France",
+    "away_team": "Spain",
+    "commence_time_utc": "2026-07-14T19:00:00Z",
+    "closing_snapshot_utc": "2026-07-14T18:55:37Z",
+    "captured_at_utc": "2026-07-14T19:58:10Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "France": 2.64,
+          "Spain": 3.21,
+          "Draw": 2.99
+        },
+        "fair_shin": {
+          "France": 0.37031,
+          "Spain": 0.30346,
+          "Draw": 0.32624
+        },
+        "fair_multiplicative": {
+          "France": 0.36963,
+          "Spain": 0.304,
+          "Draw": 0.32637
+        },
+        "overround": 1.02476
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "France": 2.23,
+          "Spain": 1.76
+        },
+        "points": {
+          "France": -0.25,
+          "Spain": 0.25
+        },
+        "fair_shin": {
+          "France": 0.44012,
+          "Spain": 0.55988
+        },
+        "fair_multiplicative": {
+          "France": 0.4411,
+          "Spain": 0.5589
+        },
+        "overround": 1.01661
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 1.93,
+          "Under": 1.98
+        },
+        "points": {
+          "Over": 2.5,
+          "Under": 2.5
+        },
+        "fair_shin": {
+          "Over": 0.50654,
+          "Under": 0.49346
+        },
+        "fair_multiplicative": {
+          "Over": 0.50639,
+          "Under": 0.49361
+        },
+        "overround": 1.02319
+      }
+    }
   }
 ]
