@@ -61,6 +61,12 @@
       "home_team": "Belgium",
       "id": "658ac8cbf214ca3cc150109b4ddc1e74"
     },
+    "70337f0d573aa5893d60a9a5ceb4dd97": {
+      "away_team": "England",
+      "commence_time": "2026-07-19T19:00:00Z",
+      "home_team": "Spain",
+      "id": "70337f0d573aa5893d60a9a5ceb4dd97"
+    },
     "810f80b3ae79f5e86b3747ca15718ed8": {
       "away_team": "Belgium",
       "commence_time": "2026-07-07T00:00:00Z",
@@ -156,6 +162,12 @@
       "commence_time": "2026-07-03T18:00:00Z",
       "home_team": "Australia",
       "id": "fb270a3dac2b682c861bd674a5ff4a04"
+    },
+    "fb30113e43d113f1ace48b8563ba1ee9": {
+      "away_team": "Argentina",
+      "commence_time": "2026-07-19T19:00:00Z",
+      "home_team": "Spain",
+      "id": "fb30113e43d113f1ace48b8563ba1ee9"
     },
     "fca257de4583bd4bc592e8b2a8f24ad7": {
       "away_team": "Belgium",
