@@ -1585,5 +1585,74 @@
         "overround": 1.02319
       }
     }
+  },
+  {
+    "match_id": "ced22494ae0bbb8cc4f7108bf6f493df",
+    "home_team": "England",
+    "away_team": "Argentina",
+    "commence_time_utc": "2026-07-15T19:00:00Z",
+    "closing_snapshot_utc": "2026-07-15T18:55:36Z",
+    "captured_at_utc": "2026-07-15T19:38:30Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "Argentina": 3.15,
+          "England": 2.71,
+          "Draw": 2.96
+        },
+        "fair_shin": {
+          "Argentina": 0.3095,
+          "England": 0.36074,
+          "Draw": 0.32976
+        },
+        "fair_multiplicative": {
+          "Argentina": 0.30993,
+          "England": 0.36025,
+          "Draw": 0.32982
+        },
+        "overround": 1.0243
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "Argentina": 2.13,
+          "England": 1.83
+        },
+        "points": {
+          "Argentina": -0.0,
+          "England": 0.0
+        },
+        "fair_shin": {
+          "Argentina": 0.46152,
+          "England": 0.53848
+        },
+        "fair_multiplicative": {
+          "Argentina": 0.46212,
+          "England": 0.53788
+        },
+        "overround": 1.01593
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 1.83,
+          "Under": 2.08
+        },
+        "points": {
+          "Over": 2.0,
+          "Under": 2.0
+        },
+        "fair_shin": {
+          "Over": 0.53284,
+          "Under": 0.46716
+        },
+        "fair_multiplicative": {
+          "Over": 0.53197,
+          "Under": 0.46803
+        },
+        "overround": 1.02722
+      }
+    }
   }
 ]
