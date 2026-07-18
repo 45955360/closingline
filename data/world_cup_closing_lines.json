@@ -1654,5 +1654,74 @@
         "overround": 1.02722
       }
     }
+  },
+  {
+    "match_id": "7a49e7985534a5ff3428740d0b630fd7",
+    "home_team": "France",
+    "away_team": "England",
+    "commence_time_utc": "2026-07-18T21:00:00Z",
+    "closing_snapshot_utc": "2026-07-18T20:55:37Z",
+    "captured_at_utc": "2026-07-18T21:27:19Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "England": 4.64,
+          "France": 1.74,
+          "Draw": 4.17
+        },
+        "fair_shin": {
+          "England": 0.20646,
+          "France": 0.56299,
+          "Draw": 0.23056
+        },
+        "fair_multiplicative": {
+          "England": 0.20923,
+          "France": 0.55795,
+          "Draw": 0.23281
+        },
+        "overround": 1.03004
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "England": 2.24,
+          "France": 1.75
+        },
+        "points": {
+          "England": 0.5,
+          "France": -0.5
+        },
+        "fair_shin": {
+          "England": 0.4375,
+          "France": 0.5625
+        },
+        "fair_multiplicative": {
+          "England": 0.4386,
+          "France": 0.5614
+        },
+        "overround": 1.01786
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 2.0,
+          "Under": 1.9
+        },
+        "points": {
+          "Over": 3.25,
+          "Under": 3.25
+        },
+        "fair_shin": {
+          "Over": 0.48684,
+          "Under": 0.51316
+        },
+        "fair_multiplicative": {
+          "Over": 0.48718,
+          "Under": 0.51282
+        },
+        "overround": 1.02632
+      }
+    }
   }
 ]
