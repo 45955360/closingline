@@ -1723,5 +1723,74 @@
         "overround": 1.02632
       }
     }
+  },
+  {
+    "match_id": "fb30113e43d113f1ace48b8563ba1ee9",
+    "home_team": "Spain",
+    "away_team": "Argentina",
+    "commence_time_utc": "2026-07-19T19:05:00Z",
+    "closing_snapshot_utc": "2026-07-19T19:00:37Z",
+    "captured_at_utc": "2026-07-19T19:34:57Z",
+    "markets": {
+      "h2h": {
+        "label": "1X2",
+        "prices": {
+          "Argentina": 3.81,
+          "Spain": 2.28,
+          "Draw": 3.05
+        },
+        "fair_shin": {
+          "Argentina": 0.2534,
+          "Spain": 0.42827,
+          "Draw": 0.31833
+        },
+        "fair_multiplicative": {
+          "Argentina": 0.25509,
+          "Spain": 0.42626,
+          "Draw": 0.31865
+        },
+        "overround": 1.02893
+      },
+      "spreads": {
+        "label": "Asian Handicap",
+        "prices": {
+          "Argentina": 2.0,
+          "Spain": 1.93
+        },
+        "points": {
+          "Argentina": 0.25,
+          "Spain": -0.25
+        },
+        "fair_shin": {
+          "Argentina": 0.49093,
+          "Spain": 0.50907
+        },
+        "fair_multiplicative": {
+          "Argentina": 0.49109,
+          "Spain": 0.50891
+        },
+        "overround": 1.01813
+      },
+      "totals": {
+        "label": "Asian Total Goals",
+        "prices": {
+          "Over": 2.07,
+          "Under": 1.85
+        },
+        "points": {
+          "Over": 2.25,
+          "Under": 2.25
+        },
+        "fair_shin": {
+          "Over": 0.47128,
+          "Under": 0.52872
+        },
+        "fair_multiplicative": {
+          "Over": 0.47194,
+          "Under": 0.52806
+        },
+        "overround": 1.02363
+      }
+    }
   }
 ]
